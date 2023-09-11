@@ -49,4 +49,5 @@ require("lazy").setup({
         tag = '0.1.2',
         dependencies = {'nvim-lua/plenary.nvim'}
     },
+	{'pbondoer/vim-42header'}
 })

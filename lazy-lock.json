@@ -8,6 +8,7 @@
   "nvim-treesitter": { "branch": "master", "commit": "d5f57cd4794d8f0a541f140229e5764e2f41d63a" },
   "plenary.nvim": { "branch": "master", "commit": "0232372b906f275f76ac42029eba25eaf95e76b9" },
   "telescope.nvim": { "branch": "master", "commit": "776b509f80dd49d8205b9b0d94485568236d1192" },
+  "vim-42header": { "branch": "master", "commit": "8adec3f44811398adba275fdcace3e63ba379071" },
   "vim-floaterm": { "branch": "master", "commit": "eeb3f6b5c98bde26752ebe0fbe1359fc974cbdcd" },
   "which-key.nvim": { "branch": "main", "commit": "7ccf476ebe0445a741b64e36c78a682c1c6118b7" }
 }
