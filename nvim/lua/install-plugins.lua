@@ -50,4 +50,6 @@ require("lazy").setup({
         dependencies = {'nvim-lua/plenary.nvim'}
     },
 	{'pbondoer/vim-42header'}
+	{'preservim/nerdtree'}
+	{'dense-analysis/ale'}
 })
