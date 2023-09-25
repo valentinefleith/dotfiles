@@ -30,6 +30,8 @@ alias please='sudo'
 alias fucking='sudo'
 alias gccc='gcc -Wall -Wextra -Werror'
 alias vim='nvim.appimage'
+alias pdb='python3 -m pdb'
+alias py='python3'
 
 plugins=(colored-man-pages git)
 
@@ -92,7 +94,7 @@ plugins=(colored-man-pages git)
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 
