@@ -14,3 +14,7 @@ vim.api.nvim_set_keymap('n', '<leader>tt', ":FloatermToggle<cr>",
                         {noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<leader>tt', "<C-\\><C-n>:FloatermToggle<CR>",
                         {noremap = true, silent = true})
+
+
+vim.api.nvim_set_keymap('n', '<leader>pp', ":NERDTreeToggle<cr>",
+						{noremap = true, silent = true})
