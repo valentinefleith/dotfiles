@@ -65,5 +65,6 @@ require("lazy").setup({
     },
 	{'pbondoer/vim-42header'},
 	{'preservim/nerdtree'},
-	{'dense-analysis/ale'}
+	{'dense-analysis/ale'},
+	{'ThePrimeagen/vim-be-good'}
 })
