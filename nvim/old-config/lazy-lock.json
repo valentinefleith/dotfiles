@@ -1,0 +1,14 @@
+{
+  "catppuccin": { "branch": "main", "commit": "a937d546f4783a1ff67f84043d2d7871ad4ecd83" },
+  "lazy.nvim": { "branch": "main", "commit": "3ad55ae678876516156cca2f361c51f7952a924b" },
+  "lightline.vim": { "branch": "master", "commit": "f11645cc6d37871244f2ea0ae972d3f6af9c8f73" },
+  "neoconf.nvim": { "branch": "main", "commit": "4a344462d45a08e81b19aa3d63d2bfe06404eec0" },
+  "neodev.nvim": { "branch": "main", "commit": "f0e574687aa51c513017155f003e8e8950ec6ff4" },
+  "nvim-autopairs": { "branch": "master", "commit": "defad64afbf19381fe31488a7582bbac421d6e38" },
+  "nvim-treesitter": { "branch": "master", "commit": "d5f57cd4794d8f0a541f140229e5764e2f41d63a" },
+  "plenary.nvim": { "branch": "master", "commit": "0232372b906f275f76ac42029eba25eaf95e76b9" },
+  "telescope.nvim": { "branch": "master", "commit": "776b509f80dd49d8205b9b0d94485568236d1192" },
+  "vim-42header": { "branch": "master", "commit": "8adec3f44811398adba275fdcace3e63ba379071" },
+  "vim-floaterm": { "branch": "master", "commit": "eeb3f6b5c98bde26752ebe0fbe1359fc974cbdcd" },
+  "which-key.nvim": { "branch": "main", "commit": "7ccf476ebe0445a741b64e36c78a682c1c6118b7" }
+}
