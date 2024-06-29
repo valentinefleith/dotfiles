@@ -8,6 +8,8 @@ require("catppuccin").setup({
     custom_highlights = function(colors)
         return {
             Normal = { bg = "#15151A" },
+			NormalNC = { bg = "#15151A" },
+            EndOfBuffer = { bg = "#15151A" },
         }
     end
 })
