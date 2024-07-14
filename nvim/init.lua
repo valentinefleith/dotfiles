@@ -151,8 +151,10 @@ require('lazy').setup {
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   'voldikss/vim-floaterm', -- Floating terminal
+  'preservim/nerdcommenter',
   '42Paris/42Header',
   'dense-analysis/ale',
+  'cacharle/c_formatter_42.vim',
   	{"windwp/nvim-autopairs",
 		config = function() require("nvim-autopairs").setup {} end
 	},
@@ -467,7 +469,7 @@ require('lazy').setup {
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
         -- gopls = {},
-        -- pyright = {},
+        pyright = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
