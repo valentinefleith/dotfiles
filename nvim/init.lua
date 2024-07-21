@@ -154,6 +154,7 @@ require('lazy').setup {
   'preservim/nerdcommenter',
   '42Paris/42Header',
   'dense-analysis/ale',
+  'rust-lang/rust.vim',
   'cacharle/c_formatter_42.vim',
   	{"windwp/nvim-autopairs",
 		config = function() require("nvim-autopairs").setup {} end
