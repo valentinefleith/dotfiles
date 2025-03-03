@@ -1,0 +1,49 @@
+set clipboard+=unnamedplus
+
+nnoremap \e :e ~/.ideavimrc<CR>
+nnoremap \r :source ~/.ideavimrc<CR>
+
+set number
+
+set incsearch
+set hlsearch
+nnoremap <Esc> :nohlsearch<CR>
+set smartcase
+set highlightedyank
+set surround
+
+let mapleader=" "
+
+map <leader>hh <c-w>h
+map <leader>ll <c-w>l
+map <leader>jj <c-w>j
+map <leader>kk <c-w>k
+
+map <leader>HH <Action>(ToggleDistractionFreeMode)
+map <leader>HP <Action>(TogglePresentationMode)
+map <leader>ht <Action>(HideAllWindows)
+
+map <leader>tt <Action>(ActivateTerminalToolWindow)
+
+map <leader>ss <Action>(SearchEverywhere)
+
+map <leader>pp <Action>(ActivateProjectToolWindow)
+
+map gn <Action>(GotoNextError)
+map gp <Action>(GotoPreviousError)
+
+" gd already goes to definition
+map gi <Action>(GoToImplementation)
+map U <C-R>
+
+
+" Active les numéros de ligne relatifs
+set relativenumber
+
+
+" Active la correspondance des parenthèses
+set showmatch
+
+" Active le copier-coller via le presse-papiers système
+
+
